@@ -1,9 +1,6 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-[RequireComponent(typeof(TilemapCollider2D))]
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CompositeCollider2D))]
 public class UglyEdgeCollider : MonoBehaviour
 {
     void Awake()
@@ -46,4 +43,5 @@ public class UglyEdgeCollider : MonoBehaviour
         Destroy(compo);
         Destroy(rigid);
     }
+
 }
