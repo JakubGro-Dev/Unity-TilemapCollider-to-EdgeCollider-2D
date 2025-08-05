@@ -1,0 +1,8 @@
+Unity 6.1
+Used in 2D
+Makes EdgeCollider from Tilemap. Needs Tilemap (Composite Merge), Composite.
+Works with any map shape.
+Side note: There might be better ways, but hey, if it works, it works.
+
+
+Credits: me
